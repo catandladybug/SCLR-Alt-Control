@@ -925,4 +925,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/roman/OneDrive/Documents/Unity/Alt Control/Build
+  playerPath: C:/Users/roman/OneDrive/Documents/GitHub/SCLR-Alt-Control/Alt Control/Build

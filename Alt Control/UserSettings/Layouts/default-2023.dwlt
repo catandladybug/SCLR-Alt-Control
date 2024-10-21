@@ -417,7 +417,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: e4d7ffff34d8ffffc0dfffff28fbffff
+      m_ExpandedIDs: 88eaffffd8eaffff64f2ffff28fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1019,7 +1019,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.21309549, y: 0.015224755, z: -0.0033672217, w: -0.9767346}
     speed: 2
-    m_Value: {x: -0.21313137, y: 0.015227319, z: -0.0033677889, w: -0.9768991}
+    m_Value: {x: -0.21309549, y: 0.015224754, z: -0.0033672214, w: -0.9767345}
   m_Size:
     m_Target: 326.5263
     speed: 2
@@ -1095,7 +1095,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1105,16 +1105,17 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\roman\OneDrive\Documents\Unity\Alt Control
+  m_LastProjectPath: C:\Users\roman\OneDrive\Documents\GitHub\SCLR-Alt-Control\Alt
+    Control
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 28620000
-    m_LastClickedID: 25128
-    m_ExpandedIDs: 00000000de61000000ca9a3b
+    m_SelectedIDs: e2610000
+    m_LastClickedID: 25058
+    m_ExpandedIDs: 00000000e261000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1142,7 +1143,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000de610000
+    m_ExpandedIDs: 00000000e2610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
