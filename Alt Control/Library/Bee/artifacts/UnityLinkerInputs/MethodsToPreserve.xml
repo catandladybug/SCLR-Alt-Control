@@ -1,0 +1,10 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="SwitchScenes">
+			<method name="BackToStart"/>
+			<method name="Instructions"/>
+			<method name="Reset"/>
+			<method name="StartGame"/>
+		</type>
+	</assembly>
+</linker>

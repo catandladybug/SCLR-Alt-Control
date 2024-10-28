@@ -296,6 +296,9 @@
 "Assets/Scripts/Enemy.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/PointManager.cs"
+"Assets/Scripts/PointsDisplay.cs"
+"Assets/Scripts/SwitchScenes.cs"
 -langversion:9.0
 
 /deterministic

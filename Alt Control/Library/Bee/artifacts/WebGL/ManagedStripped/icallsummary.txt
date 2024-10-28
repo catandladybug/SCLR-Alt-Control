@@ -33,6 +33,7 @@ UnityEngine.Application::get_isFocused
 UnityEngine.Application::get_isPlaying
 UnityEngine.Application::OpenURL
 UnityEngine.Application::get_platform
+UnityEngine.AsyncOperation::InternalDestroy
 UnityEngine.Awaitable::IsNativeAwaitableCompleted
 UnityEngine.Awaitable::ReleaseNativeAwaitable
 UnityEngine.Behaviour::get_enabled_Injected
@@ -406,6 +407,7 @@ UnityEngine.Object::GetName_Injected
 UnityEngine.Object::ToString_Injected
 UnityEngine.Object::DestroyImmediate_Injected
 UnityEngine.Object::Destroy_Injected
+UnityEngine.Object::DontDestroyOnLoad_Injected
 UnityEngine.Object::SetName_Injected
 UnityEngine.Object::set_hideFlags_Injected
 UnityEngine.Object::get_hideFlags_Injected
@@ -506,6 +508,11 @@ UnityEngine.Resources::GetBuiltinResource
 UnityEngine.ResourcesAPIInternal::Load
 UnityEngine.ResourcesAPIInternal::FindShaderByName
 UnityEngine.Rigidbody::set_velocity_Injected
+UnityEngine.SceneManagement.Scene::GetBuildIndexInternal
+UnityEngine.SceneManagement.SceneManager::get_sceneCount
+UnityEngine.SceneManagement.SceneManager::GetActiveScene_Injected
+UnityEngine.SceneManagement.SceneManager::GetSceneAt_Injected
+UnityEngine.SceneManagement.SceneManagerAPIInternal::LoadSceneAsyncNameIndexInternal_Injected
 UnityEngine.Screen::get_fullScreen
 UnityEngine.Screen::get_height
 UnityEngine.Screen::get_width
