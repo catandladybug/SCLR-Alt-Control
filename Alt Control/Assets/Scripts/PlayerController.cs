@@ -11,46 +11,67 @@ public class PlayerController : MonoBehaviour
     public int enemyWeakness;
     public bool enemyAttacked = false;
     public TextMeshProUGUI attackInput;
+    public bool disabled = true;
+    public int wrongMoves;
     // Start is called before the first frame update
     void Start()
     {
         rb = this.GetComponent<Rigidbody>();
-        enemyWeakness = Random.Range(1, 4);
+        enemyWeakness = Random.Range(1, 5);
     }
 
     private void Update()
     {
-        if (attackWindowOpen)
+        if (!disabled)
         {
-            if (Input.GetKey(KeyCode.Alpha1))
+            if(attackWindowOpen)
             {
-                if(enemyWeakness == 1)
-                    enemyAttacked = true;
-                attackInput.text = "1!";
+                if (Input.GetKeyDown(KeyCode.Alpha1))
+                {
+                    if (enemyWeakness == 1)
+                    {
+                        enemyAttacked = true;
+                        attackInput.color = Color.green;
+                    }
+                    attackInput.text = "1!";
+                    attackWindowOpen = false;
+                }
+                else if (Input.GetKeyDown(KeyCode.Alpha2))
+                {
+                    if (enemyWeakness == 2)
+                    {
+                        enemyAttacked = true;
+                        attackInput.color = Color.green;
+                    }
+                    attackInput.text = "2!";
+                    attackWindowOpen = false;
+                }
+                else if (Input.GetKeyDown(KeyCode.Alpha3))
+                {
+                    if (enemyWeakness == 3)
+                    {
+                        enemyAttacked = true;
+                        attackInput.color = Color.green;
+                    }
+                    attackInput.text = "3!";
+                    attackWindowOpen = false;
+                }
+                else if (Input.GetKeyDown(KeyCode.Alpha4))
+                {
+                    if (enemyWeakness == 4)
+                    {
+                        enemyAttacked = true;
+                        attackInput.color = Color.green;
+                    }
+                    attackInput.text = "4!";
+                    attackWindowOpen = false;
+                }
             }
-            else if (Input.GetKey(KeyCode.Alpha2))
-            {
-                if (enemyWeakness == 2)
-                    enemyAttacked = true;
-                attackInput.text = "2!";
-            }
-            else if (Input.GetKey(KeyCode.Alpha3))
-            {
-                if (enemyWeakness == 3)
-                    enemyAttacked = true;
-                attackInput.text = "3!";
-            }
-            else if (Input.GetKey(KeyCode.Alpha4))
-            {
-                if (enemyWeakness == 4)
-                    enemyAttacked = true;
-                attackInput.text = "4!";
-            }
+            if (Input.GetKey(KeyCode.Space) && speed < 70)
+                speed += .01f;
+            else if (speed > 20)
+                speed -= .01f;
         }
-        if (Input.GetKey(KeyCode.Space) && speed < 70)
-            speed += .1f;
-        else if (speed > 20)
-            speed -= .1f;
     }
 
     void FixedUpdate()
